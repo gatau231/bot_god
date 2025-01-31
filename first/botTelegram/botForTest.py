@@ -20,7 +20,7 @@ import pyautogui as pyautogui
 
 
 wikipedia.set_lang("ru")
-bot = TeleBot(config["token"])
+bot = TeleBot(config["26689028"])
 
 
 def delete_all_tmp_files():
