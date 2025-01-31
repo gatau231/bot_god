@@ -1,6 +1,6 @@
 import os
 import time
-from bs4 import BeautifulSoup
+from bash4 import BeautifulSoup
 import mouse as mouse
 import requests
 import telebot
@@ -20,7 +20,7 @@ import pyautogui as pyautogui
 
 
 wikipedia.set_lang("ru")
-bot = TeleBot(config["26689028"])
+bot = TeleBot(config["TOKEN"])
 
 
 def delete_all_tmp_files():
